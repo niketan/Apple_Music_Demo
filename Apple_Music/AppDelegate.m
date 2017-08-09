@@ -1,12 +1,6 @@
-//
-//  AppDelegate.m
-//  Apple_Music
-//
-//  Created by Niketan Patel on 09/08/17.
-//  Copyright © 2017 Niketan Patel. All rights reserved.
-//
 
 #import "AppDelegate.h"
+#import <CoreData/CoreData.h>
 
 @interface AppDelegate ()
 
@@ -93,6 +87,11 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+}
+
+- (NSManagedObjectContext *) managedObjectContext {
+    
+    return self.persistentContainer.viewContext;
 }
 
 @end

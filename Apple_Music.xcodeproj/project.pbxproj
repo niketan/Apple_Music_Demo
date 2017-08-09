@@ -418,6 +418,7 @@
 				DEVELOPMENT_TEAM = T49658X6F7;
 				GCC_PREFIX_HEADER = /Users/Niketan/Work/Demos_Inheritx/Apple_Music/PrefixHeader.pch;
 				INFOPLIST_FILE = Apple_Music/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niketan.apple-music.Apple-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +435,7 @@
 				DEVELOPMENT_TEAM = T49658X6F7;
 				GCC_PREFIX_HEADER = /Users/Niketan/Work/Demos_Inheritx/Apple_Music/PrefixHeader.pch;
 				INFOPLIST_FILE = Apple_Music/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niketan.apple-music.Apple-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
